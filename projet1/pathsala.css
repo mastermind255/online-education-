@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+h1 {
+    padding-left: 305px;
+}
+
+#navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: -35px;
+
+}
+
+li {
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 239, 244);
+    font-size: 20px;
+}
+
+/* ----------------navbar-------------- */
+#home {
+    background-image: linear-gradient(rgb(83, 95, 99), rgba(229, 229, 159, 0.753));
+    text-align: center;
+}
+
+#a {
+    font-size: 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+}
+
+#b {
+    padding-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: rgb(52, 182, 222);
+    border-radius: 10px;
+    color: black;
+}
+
+#home1 {
+    background-image: linear-gradient(rgba(10, 20, 30, 0.578), rgba(10, 20, 30, 0.605)), url(study.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 50px;
+    height: 650px;
+}
+
+#home_page_2 {
+    font-size: 70px;
+    padding: 30px;
+    padding-top: 200px;
+    color: white;
+    font-size: 100px;
+}
+
+#home_page_p_2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#button1 {
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, 0.618);
+    color: white;
+    border-radius: 20px;
+}
+
+#button1:hover {
+    background-color: rgba(11, 248, 11, 0.479);
+    transition-duration: 0.5s;
+}
+
+#button2 {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+}
+
+#button2:hover {
+    background-color: rgba(113, 0, 47, 0.819);
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.home2 {
+    background-image: linear-gradient(to right, rgb(40, 38, 38), rgb(113, 110, 110));
+    color: white;
+}
+
+#head2 {
+    padding: 35px 50px;
+    font-size: 60px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    display: flex;
+    margin: 100px 60px 0px 50px;
+    padding-bottom: 100px;
+
+}
+
+.icon1 {
+    padding: 20px;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.icon1 h1 {
+    padding: 0px;
+
+}
+
+.icon2 {
+    padding: 20px;
+    margin: 0px 90px;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.icon2 h1 {
+    padding: 0px;
+}
+
+.icon3 {
+    padding: 20px;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.icon3 h1 {
+    padding: 0px;
+}
+
+.home3 {
+    background-image: linear-gradient(rgba(17, 26, 35, 0.734), rgba(10, 20, 30, 0.707)), url(study1.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.home3 h1 {
+    color: white;
+    padding: 150px 0px 0px 50px;
+    font-size: 60px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.text1_1 {
+    color: white;
+    width: 20%;
+    font-size: 20px;
+}
+
+.text1_1:hover {
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+.text1_2 {
+    color: white;
+    width: 20%;
+    font-size: 20px;
+}
+
+.text1_2:hover {
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+.text1_3 {
+    color: white;
+    width: 20%;
+    font-size: 20px;
+}
+
+.text1_3:hover {
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+.text1_4 {
+    color: white;
+    width: 20%;
+    font-size: 20px;
+}
+
+.text1_4:hover {
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, rgba(99, 89, 184, 0.822), rgba(56, 57, 69, 0.662));
+    display: flex;
+    justify-content: space-around;
+}
+
+.address1 h4 {
+    padding: 20px 48px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address1 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address2 h4 {
+    padding: 20px 50px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address2 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address3 h4 {
+    padding: 20px 48px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address3 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address4 h4 {
+    padding: 20px 46px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address4 li {
+    list-style-type: none;
+    color: white;
+}
+.footer-copyright{
+    background-color: rgb(45, 44, 44);
+    color: white;
+    font-size: 20px;
+    padding: 0px 647px;
+    position: fixed;
+    bottom: 0px;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to right,rgb(67, 66, 66),grey), url(about.jpg);
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+h1{
+padding-left:  192px;
+}
+#navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+li{
+    padding: 10px;
+    /* text-decoration: none;
+    color: white; */
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 239, 244);
+    font-size: 20px;
+}
+/* -------------------------navbar-------------------------- */
+.para{
+display: flex;
+padding-top:200px;
+}
+.para1 p{
+ font-size: 25px;
+ color: white;
+ text-align: justify;
+ margin: -52px 105px 0px 59px;
+}
+.para1 h1{
+    font-size: 45px;
+    color:black;
+    text-align: justify;
+    margin: -95px 0px 116px 150px;
+}
+.para2{
+    margin: -30px 60px 0px 0px;
+}
+footer {
+    background-image: linear-gradient(to bottom, rgba(99, 89, 184, 0.822), rgba(56, 57, 69, 0.662));
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.address1 h4 {
+    padding: 20px 48px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address1 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address2 h4 {
+    padding: 20px 50px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address2 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address3 h4 {
+    padding: 20px 48px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address3 li {
+    list-style-type: none;
+    color: white;
+}
+
+.address4 h4 {
+    padding: 20px 46px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.address4 li {
+    list-style-type: none;
+    color: white;
+}

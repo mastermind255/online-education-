@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to right,rgb(46, 160, 195),rgb(167, 221, 234));
+}
+form{
+    border:none;
+    background-color: aliceblue;
+    padding: 30px;
+    width: 30%;
+    margin-left: 520px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 7px rgb(130, 126, 126);
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 660px;
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+h5{
+    padding: 10px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: rgb(249, 139, 66);
+    color: antiquewhite;
+    font-size: 18px;
+}
+h5:hover{
+    background-color: green;
+}
+div select{
+    padding: 5px;
+}
